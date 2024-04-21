@@ -1,4 +1,3 @@
-You can use this website for resizing your custom uploads/images to this dimension -- 1280x853 which is the required dimension to upload on the LIET website ([www.lords.ac.in](https://www.lords.ac.in)).
+Looking to resize your images for uploading to the LIET website ([www.lords.ac.in](https://www.lords.ac.in))? We've got you covered!
 
-Visit it here:
-[https://ufraan.github.io/lords-image-resize/](https://ufraan.github.io/lords-image-resize/)
+Visit [this website](https://ufraan.github.io/lords-image-resize/) to easily adjust your custom uploads to the required dimensions of 1280x853. It's hassle-free and ensures your images look perfect on the LIET platform.
