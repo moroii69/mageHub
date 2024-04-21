@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #2f3e46;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .upload-section,
+  .progress-section,
+  .download-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .progress {
+    height: 25px;
+  }
+
+  .btn-dark {
+    background-color: #354f52;
+    border-color: #354f52;
+  }
+
+  .btn-dark:hover {
+    background-color: #52796f;
+    border-color: #52796f;
+  }
+
+  body {
+    color: #cad2c5;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      margin-top: 10px;
+    }
+    .header {
+      font-size: 20px;
+    }
+    .upload-section,
+    .progress-section,
+    .download-section {
+      margin-top: 10px;
+    }
+  }

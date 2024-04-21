@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Resizer</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>IMAGE RESIZER</h1>
+        <p>(suitable for <a href="http://www.lords.ac.in" target="_blank">LIET website</a> images)</p>
+    </div>    
+
+  <div class="upload-section">
+    <input type="file" id="uploadInput" style="display: none;" onchange="resizeImage(event)">
+    <button type="button" class="btn btn-dark" onclick="document.getElementById('uploadInput').click()">Upload File</button>
+  </div>
+
+  <div class="progress-section">
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+    </div>
+  </div>
+
+  <div class="download-section">
+    <a id="downloadLink" class="btn btn-dark" style="display: none;">Download Resized Image</a>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
